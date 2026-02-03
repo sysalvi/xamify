@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>XAMIFY</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="hero">
+        <div class="logo">
+          <span class="logo-text">X</span>
+        </div>
+        <h1>XAMIFY-EXT</h1>
+        <p>Ekstension Khusus untuk Aplikasi Ujian XAMIFY</p>
+      </div>
+
+      <div class="panel">
+        <div class="row">
+          <div>
+            <h2>Status Proteksi</h2>
+            <span class="status" id="status-text">Non-Aktif</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="toggle" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+
+      <button class="primary" id="open-exam">Masuk ke Halaman Ujian</button>
+      <button class="ghost" disabled>Standby</button>
+
+      <p class="footer">© Copyright 2025 DISTEK YUQD</p>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
