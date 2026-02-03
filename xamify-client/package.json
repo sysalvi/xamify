@@ -54,6 +54,11 @@
           "arch": ["x64"]
         }
       ]
+    },
+    "publish": [
+      {
+        "provider": "github"
+      }
     }
   }
 }
